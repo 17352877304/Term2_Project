@@ -965,19 +965,13 @@
             <div class="stationery container">
                 <!-- 顶部盒子 -->
                 <div class="top-stat clearfix">
-                    <p class="title-stat fl">推广商品</p>  
-                      <ul class="fr">
-                          <li class="active"></li>
-                          <li></li>
-                      </ul>          
+                    <h1 class="title-stat fl">推广商品</h1> 
+                      <h1 class="title-stat fr">●●</h1>            
                 </div>
                 <!-- 下面大盒子 -->
                 <div class="bottom-foot">                   
                     <div class="title-bottom">
-                        <div class="out-box">
-                            <div class="inner-box">
-                                <!-- 1 -->
-                        <ul class="stationery-list fl clearfix">
+                        <ul class="fl">
                             <li>
                                 <img src="../img/index25_12.jpg" alt="">
                                 <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
@@ -1039,75 +1033,9 @@
                                 <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
                             </li>                             
                         </ul>
-                        <!-- 2 -->
-                        <ul class="stationery-list fl">
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>                               
-                            </li>
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>  
-                            <li>
-                                <img src="../img/index25_12.jpg" alt="">
-                                <p class="top-text">Pigeon法国制奶嘴，无</br>毒天然乳胶</p>
-                                <p class="bottom-price">￥：129</p>                               
-                                <p><img src="../img/index27_14.jpg"  alt="">有3000条评论</p>
-                            </li>                             
-                        </ul>
-                           </div>
-                         </div>
                     </div>
                 </div>
             </div>
-            
 
             <!--------------------------- 尾部 --------------------------->
             <div class="tail container clearfix">
@@ -1136,37 +1064,30 @@
                             <li>
                                 <p>购物指南</p>
                                 <p>购物流程</p>
-                                <p>发票制度</p>
-                                <p>账户管理</p>
-                                <p>会员优惠</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
                             </li>
                             <li>
-                                <p>支付方式</p>
+                                <p>购物指南</p>
                                 <p>购物流程</p>
-                                <p>发票制度</p>
-                                <p>账户管理</p>
-                                <p>会员优惠</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
                             </li>
                             <li>
-                                <p>订单配送</p>
+                                <p>购物指南</p>
                                 <p>购物流程</p>
-                                <p>发票制度</p>
-                                <p>账户管理</p>
-                                <p>会员优惠</p>>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
                             </li>
                             <li>
-                                <p>退换货</p>
+                                <p>购物指南</p>
                                 <p>购物流程</p>
-                                <p>发票制度</p>
-                                <p>账户管理</p>
-                                <p>会员优惠</p>
-                            </li>
-                            <li>
-                                <p>商家服务</p>
                                 <p>购物流程</p>
-                                <p>发票制度</p>
-                                <p>账户管理</p>
-                                <p>会员优惠</p>
+                                <p>购物流程</p>
+                                <p>购物流程</p>
                             </li>
                         </ul>
                     </div>
@@ -1177,35 +1098,24 @@
                 </div> 
                 <!-- 尾部导航栏 -->
                 <div class="tail-bottom">
-                    <p>
-                        公司简介 &nbsp; | &nbsp; Investor Relations &nbsp; |  &nbsp; 网站联盟 &nbsp;  | &nbsp; 乐购招商 &nbsp; |  &nbsp; 机构销售 &nbsp; |  &nbsp; 手机乐购 &nbsp; |  &nbsp; 官方Blog &nbsp; |  &nbsp; 热词搜索 &nbsp;
-                            
-                    </p> 
-                    <p>
-                        Copyright (C) 乐购网 2019-2025， All Rights Reserved 
-                    </p>                
+                    <ul>
+                        <li>公司简介</li>
+                        <li>investor Relation</li>
+                        <li>网站联盟</li>
+                        <li>乐购招商</li>
+                        <li>结构销售</li>
+                        <li>手机乐购</li>
+                        <li>官方blog</li>
+                        <li>热词搜索</li>
+                    </ul>                  
                 </div>               
             </div>
 
-            <!-- 返回顶部 -->
-            <!-- <div class="backToTop">
-                <img src="../img/gototop_05.jpg" alt="">
-            </div> -->
             <!--引入jquery -->
             <script src="../js/jquery-1.11.0.js"></script>
             <!-- 引入轮播插件 -->
             <script src="../js/slider.js"></script>
             <!-- 引入自己写的js -->
             <script src="../js/index.js"></script>
-            <!-- 引入返回顶部的js -->
-            <script src="../js/gotoTop.js"></script>
-            <script>
-                $(function(){
-                    //调用返回顶部函数
-                    gotoTop({
-                        imgUrl:'../img/gototop_05.jpg'
-                    })
-                })
-            </script>
         </body>
 </html>
