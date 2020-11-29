@@ -331,7 +331,7 @@
             </div>
 
             <!--------------------------- 5.电子书 --------------------------->
-            <div class="floorBox ebooks container clearfix">
+            <div class="ebooks container clearfix">
                 <!-- 左侧盒子 -->
                 <div class="left-box fl">
                     <!-- 顶部 -->
@@ -490,7 +490,7 @@
             </div>
 
             <!--------------------------- 6.服装 --------------------------->
-            <div class="floorBox clothes container clearfix">
+            <div class="clothes container clearfix">
                <!-- 上部盒子 -->
                <div class="top-box">
                    <!-- 顶部 -->
@@ -563,19 +563,19 @@
 			<!--轮播的内容-->
 			<ul class="innerwrapper">
 				<li>
-					<a href="#"><img src="../img/72190020507327_1_o.jpg" /></a>
+					<a href="#"><img src="../img/banner1.jpg" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="../img/139430026166665_y.jpg" /></a>
+					<a href="#"><img src="../img/banner2.jpg" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="../img/162350015511487_y.jpg" /></a>
+					<a href="#"><img src="../img/banner3.jpg" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="../img/72190020507327_1_o.jpg" /></a>
+					<a href="#"><img src="../img/banner4.jpg" /></a>
 				</li>
 				<li>
-					<a href="#"><img src="../img/162350015511487_y.jpg" /></a>
+					<a href="#"><img src="../img/banner5.jpg" /></a>
 				</li>
 			</ul>
 			<!--数字控制器-->
@@ -635,7 +635,7 @@
                </div>
     
             <!--------------------------- 7.运动户外 --------------------------->
-            <div class="floorBox sport container clearfix">
+            <div class="sport container clearfix">
                 <!-- 上部盒子 -->
                <div class="top-box">
                 <!-- 顶部 -->
@@ -708,19 +708,19 @@
          <!--轮播的内容-->
          <ul class="innerwrapper">
              <li>
-                 <a href="#"><img src="../img/160729-3709pc-B.jpg" /></a>
+                 <a href="#"><img src="../img/banner1.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/72190020507327_1_o.jpg" /></a>
+                 <a href="#"><img src="../img/banner2.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/72190020507327_1_o.jpg" /></a>
+                 <a href="#"><img src="../img/banner3.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/91540017771809_1_o.jpg" /></a>
+                 <a href="#"><img src="../img/banner4.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/121440017773720_1_o.jpg" /></a>
+                 <a href="#"><img src="../img/banner5.jpg" /></a>
              </li>
          </ul>
          <!--数字控制器-->
@@ -781,7 +781,7 @@
             </div>
 
             <!--------------------------- 8.童装 --------------------------->
-            <div class="floorBox children-clothes container clearfix">
+            <div class="children-clothes container clearfix">
                 <!-- 上部盒子 -->
                <div class="top-box">
                 <!-- 顶部 -->
@@ -854,16 +854,16 @@
          <!--轮播的内容-->
          <ul class="innerwrapper">
              <li>
-                 <a href="#"><img src="../img/children-4.jpg" /></a>
+                 <a href="#"><img src="../img/banner1.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/a_ban_383-340.jpg" /></a>
+                 <a href="#"><img src="../img/banner2.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/lunbo.jpg" /></a>
+                 <a href="#"><img src="../img/banner3.jpg" /></a>
              </li>
              <li>
-                 <a href="#"><img src="../img/187720017020448_1_o.jpg" /></a>
+                 <a href="#"><img src="../img/banner4.jpg" /></a>
              </li>
              <li>
                  <a href="#"><img src="../img/banner5.jpg" /></a>
@@ -927,7 +927,7 @@
             </div>
 
             <!--------------------------- 9.家居日用--------------------------->
-            <div class="floorBox daily container">
+            <div class="daily container">
                 <!-- 顶部 -->
                 <div class="sup">
                     <!-- 标题 -->
@@ -1187,44 +1187,6 @@
                 </div>               
             </div>
 
-            <!--------------------------- 二维码 --------------------------->
-            <div class="qr-code">
-                <p><img src="../img/two_30.jpg" alt=""></p>
-                <p  class="ticket"><img src="../img/two_35.jpg" alt=""></p>
-                <div><img src="../img/two_34.jpg" alt=""></div>
-                <p><img src="../img/two_40.jpg" alt=""></p>
-            </div>
-
-            <!--------------------------- 顶部搜索框 --------------------------->
-            <div class="top-search-box">
-                <div class="search-box">
-                    <input class="search" placeholder="创意文具" type="text">              
-                </div> 
-            </div>
-
-             <!--------------------------- 楼层滚动 --------------------------->
-                 <ul class="floor">
-                     <li>
-                         <img src="../img/indexleft_05.png" alt="">
-                         图书
-                     </li>
-                     <li>
-                         <img src="../img/indexleft_08.png" alt="">
-                         服装
-                     </li>
-                     <li>
-                        <img src="../img/indexleft_11.png"alt="">
-                        运动
-                     </li>
-                     <li>
-                        <img src="../img/indexleft_14.png"alt="">
-                        童装
-                     </li>
-                     <li>
-                        <img src="../img/indexleft_17.png"alt="">
-                        家居
-                     </li>
-                 </ul>
             <!-- 返回顶部 -->
             <!-- <div class="backToTop">
                 <img src="../img/gototop_05.jpg" alt="">
@@ -1241,7 +1203,7 @@
                 $(function(){
                     //调用返回顶部函数
                     gotoTop({
-                        imgUrl:'../img/gototop_05.png'
+                        imgUrl:'../img/gototop_05.jpg'
                     })
                 })
             </script>

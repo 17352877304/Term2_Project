@@ -1,0 +1,82 @@
+/*购物车*/
+.shopcart{
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shopcart h2{
+    font-size: 20px;
+    color: #ff6700;
+    text-indent: 20px;
+}
+.shopcart table{
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+.shopcart table button{
+    width: 20px;
+    height: 20px;
+}
+.shopcart table input{
+    width: 50px;
+}
+.shopcart table thead tr th{
+    height: 60px;
+    background-color: #f1f1f1;
+    color: #a4a4a4;
+}
+.shopcart table tbody tr td{
+    margin-top: 20px;
+}
+.shopcart table tbody tr td.price{
+    color: #ff6700;
+}
+.shopcart table tbody tr td.subprice{
+    color: #ff6700;
+}
+.shopcart table tbody td button{
+    margin-left: -5px;
+}
+.shopcart table tbody td input{
+    margin-left: -6px;
+    text-align: center;
+}
+.shopcart table tbody td.subprice{
+    width: 100px;
+}
+/* 下面盒子 */
+.shopcart .totalPrice{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #a4a4a4;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.shopcart .totalPrice button{
+    background-color: #ff6700;
+    height: 60px;
+    width: 100px;
+    color: #fff;
+    border: #fff;
+}
+.shopcart .totalPrice .choice .count{
+    color: #ff6700;
+}
+.shopcart .totalPrice .total-price{
+    color: #4d4d4d;
+    width: 150px;
+    font-size: 24px;
+}
+.shopcart .totalPrice .total-price .total{
+    color: #ff6700;
+}
+.shopcart .totalPrice span{
+    margin-right: 50px;
+}
+.shopcart .totalPrice span:first-of-type{
+    margin-left: 50px;
+}
+
