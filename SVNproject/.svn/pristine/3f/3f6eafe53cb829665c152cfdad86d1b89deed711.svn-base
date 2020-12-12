@@ -523,17 +523,7 @@
 
             <!--------------------------- 猜你喜欢 --------------------------->
             <div class="guess-you-like container">
-                <div class="guess-you-like-title">
-                    <h1 class="fl">猜你喜欢</h1>
-                    <p class="change fr">换一批</p>
-                </div>
-                <div class="guess-you-like-content out-box">
-                    <ul class="inner-box">
-                        <li><img src="../img/banner1.jpg" alt=""></li>
-                        <li><img src="../img/banner1.jpg" alt=""></li>
-                        <li><img src="../img/banner1.jpg" alt=""></li>
-                    </ul>
-                </div>
+
             </div>
 
             <!--------------------------- 尾部 --------------------------->
