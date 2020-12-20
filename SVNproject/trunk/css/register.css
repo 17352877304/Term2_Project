@@ -1,0 +1,52 @@
+
+.nav{
+  height: 69px;
+  border-bottom: 3px solid #e7e7e7;
+}
+.nav .category-menu{
+  height: 68px;
+}
+.nav .left-logo img{
+  margin-top: 40px;
+  margin-left: 170px;
+}
+.nav .right-list p:first-child{
+  font-size: 24px;
+  color: #aaaaaa;
+  position: absolute;
+  top: 50px;
+  left: 400px;
+}
+.nav .right-list p:last-child{
+  font-size: 24px;
+  color: #aaaaaa;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+.nav .right-list p:last-child span{
+  color: #333;
+}
+.register{
+  width: 500px;
+  height: 700px;
+  margin-top: 30px;
+  background-color: pink;
+}
+.register p{
+  margin-bottom: 30px;
+}
+.register p input{
+  width: 200px;
+  height: 20px;
+}
+.register h1{
+  font-size: 24px;
+}
+.error{
+  color: red;
+}
+.error:first-child{
+  border: 1px solid red;
+  color: #333;
+}

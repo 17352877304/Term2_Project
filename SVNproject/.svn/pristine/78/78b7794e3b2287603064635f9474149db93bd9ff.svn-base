@@ -27,10 +27,6 @@
     height: 28px;
     background:#101010;
 }
-.topbar .label{
-    width: 100px;
-    float: left;
-}
 /* 顶部里层容器 */
 .topbar .container{
     height: 28px;

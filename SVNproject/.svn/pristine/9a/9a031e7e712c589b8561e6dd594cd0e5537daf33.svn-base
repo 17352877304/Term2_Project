@@ -54,8 +54,8 @@ $(function(){
         //边界判断
         //让里面的inner-box动起来
         $('.inner-box').stop(true).animate({left:-index * 1200},function(){
-            if(index > 3){
-                index = 0;
+            if(index === 3){
+                index=0;
                 $('.inner-box').css('left',0);
             }
         })

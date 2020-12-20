@@ -9,7 +9,7 @@
         <!-- 引入样式 -->
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/common.css">
-        <link rel="stylesheet" href="../css/shopcart.css">
+        <link rel="stylesheet" href="../css/register.css">
     </head>
         <body>
             <!---------------------------1.顶部 --------------------------->
@@ -24,99 +24,34 @@
             </div>
 
             <!---------------------------2.导航--------------------------->
-            <div class="nav container">
-                <!-- 搜索框&购物车&订单 -->
-                <div class="search-shopcart-order clearfix"> 
-                    <!-- 购物车&订单 -->
-                    <div class="shopcart-order fr">
-                        <button><span></span><span>购物车</span><span></span></button>
-                        <button>我的订单</button>
-                    </div>
-                    <!-- 搜索框 -->
-                    <div class="search-input fr">
-                        <input class="search" placeholder="创意文具" type="text">
-                        <span></span>
-                    </div>
-                </div>
+            <div class="nav">
                 <!-- 分类导航 -->
                 <div class="category-menu clearfix">
                     <!-- 左侧 -->
                     <div class="left-logo fl">
                         <img src="../img/logo.jpg">
-                    </div>                  
-                    <!-- 右侧 -->
-                    <ul class="fr clearfix">
-                        <li><a href="#">图书</a></li>
-                        <li><a href="#">电子书</a></li>
-                        <li><a href="#">原创文学</a></li>
-                        <li><a href="#">服装</a></li>
-                        <li><a href="#">运动户外</a></li>
-                        <li><a href="#">孕婴童</a></li>
-                        <li><a href="#">家居</a></li>
-                        <li><a href="#">创业文具</a></li>
-                        <li><a href="#">地方特产</a></li>
-                        <li><a href="#">海外购</a></li>
-                        <li><a href="#">电器城</a></li>
-                    </ul>
-                     </div>
+                    </div>   
+                    <!-- 右边 -->
+                    <div class="right-list ">
+                        <p>欢迎登陆</p>
+                        <p>已有账号，请<span>登录</span></p>
+                    </div>
+                </div>
             </div>
 
-           <!--------------------------- 购物车 --------------------------->
-           <div class="shopcart container">
-               <!-- 全部商品 -->
-               <h2>全部商品 (<i class="goodsCount">2</i> )</h2>
-               <!-- 表格 -->
-               <table>
-                   <thead>
-                       <tr>
-                           <th><input type="checkbox">全选</th>
-                           <th>商品</th>
-                           <th>单价</th>
-                           <th>数量</th>
-                           <th>小计</th>
-                           <th>操作</th>
-                       </tr>
-                   </thead>
-                   <tbody>
-                       <tr>
-                           <td><input type="checkbox"></td>
-                           <td>
-                               <img src="../img/index08_05.jpg" alt=""> 不愿意放弃你的全部                    
-                           </td>
-                           <td class="price">41.00</td>
-                           <td>
-                               <button class="add">＋</button>
-                               <input type="text" value="1">
-                               <button class="reduce">－</button>
-                           </td>
-                           <td class="subprice">41.00</td>
-                           <td class="del">删除</td>
-                       </tr>
-                      
-                       <tr>
-                        <td><input type="checkbox"></td>
-                        <td>
-                            <img src="../img/index08_05.jpg" alt=""> 不愿意放弃你的全部
-                        </td>
-                        <td class="price">21.00</td>
-                        <td>
-                            <button class="add">＋</button>
-                            <input type="text" value="1">
-                            <button class="reduce">－</button>
-                        </td>
-                        <td class="subprice">21.00</td>
-                        <td class="del">删除</td>
-                    </tr>
-                   </tbody>
-               </table>
-               <div class="totalPrice">
-                   <input type="checkbox">全选  
-                   <span class="deleteChecked">删除选中商品</span>  
-                   <button class="fr">去结算</button>
-                   <span class="choice fr">已选择 <i class="count">0</i> 件商品<span> 
-                   <span class="total-price fr">总价: <i class="total">0.00</i> </span>                  
-               </div>
-           </div>
+            <!--------------------------- 注册表单 --------------------------->
+            <div class="register container">
+                <h1>用户注册</h1>
+                  <form id="registerForm" action="register.php">
+                      <p>用户名: <input type="text" name="username" id=""></p>
+                      <p>密码: <input type="text" name="password" id="password"></p>
+                      <p>确认密码: <input type="text" name="checkPassword" id=""></p>
+                      <p>电话号码: <input type="text" name="tel" id=""></p>
+                      <p>验证码: <input type="text" name="" id=""></p>
+                      <p> <input type="submit" value="立即注册"></p>
+                  </form>
+            </div>
+
 
             <!--------------------------- 尾部 --------------------------->
             <div class="tail container clearfix">
@@ -199,6 +134,7 @@
           
             <!--引入jquery -->
             <script src="../js/jquery-1.11.0.js"></script>
-            <script src="../js/shopcart.js"></script>
+            <script src="../js/jquery.validate.min.js"></script>
+            <script src="../js/register.js"></script>
         </body>
 </html>
