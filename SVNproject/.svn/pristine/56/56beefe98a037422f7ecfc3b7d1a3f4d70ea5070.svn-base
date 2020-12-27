@@ -1,0 +1,259 @@
+/* 清除浮动 */
+.clearfix::after{
+    content: '';
+    display: inline-block;
+    height: 0;
+    clear: both;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+/* 版型 */
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+
+
+/* 1.--------------------------- 顶部 --------------------------- */
+/* 顶部外层容器 */
+.topbar{
+    height: 28px;
+    background:#101010;
+}
+.topbar .label{
+    width: 100px;
+    float: left;
+}
+/* 顶部里层容器 */
+.topbar .container{
+    height: 28px;
+    background-color: #101010;
+}
+/* 里面的p标签 */
+.topbar .container p{
+    height: 28px;
+    line-height: 28px;
+    color:#a0a0a0;
+}
+/* 第一个p标签 */
+.topbar .container p:first-child{
+    text-indent: 210px;
+}
+/* 第一个p标签下面的a标签 */
+.topbar .container p:first-child a{
+    color: #fff;
+    text-decoration: none;
+}
+/* 第二个p标签 */
+.topbar .container p:nth-child(2){
+    margin-right: 10px;
+}
+.topbar .container p:nth-child(2) a{
+    color: red;
+}
+/* 第二个p标签 下面的标题和注册 */
+.topbar .container p:nth-child(2) .title,.topbar .container p:nth-child(2) .register{
+    color:#ff6700;
+}
+/* 第二个p标签下面的登陆 */
+.topbar .container p:nth-child(2) .login{
+    color: #fff;
+}
+/* 2.---------------------------  导航 ---------------------------*/
+.nav{
+    height: 80px;
+    background-color: #fff;
+}
+/* 搜索购物车订单大容器 */
+.nav .search-shopcart-order{
+    padding-top: 5px;
+    height: 35px;
+    background-color: #fff;
+}
+/* 搜索框 */
+.nav .search-shopcart-order .search-input{
+    width:440px;
+    height: 35px;
+    background-color: #ff6700;
+    margin-right: 38px;
+    position: relative;
+}
+/* 搜索框中的图标 */
+.nav .search-shopcart-order .search-input span{
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../img/bgicon.png');
+}
+/* 搜索框 */
+.nav .search-shopcart-order .search-input .search{
+    width: 390px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+}
+/* 购物车和订单 */
+.nav .search-shopcart-order .shopcart-order{
+    width: 200px;
+    height: 35px;
+    background-color: pink;
+    font-size:0;
+}
+/* 购物车订单按钮 */
+.nav .search-shopcart-order .shopcart-order button{
+    width: 100px;
+    height: 35px;
+    background-color:#ebebeb;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #333;
+    outline: none;
+}
+/* 购物车按钮 */
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+    color: #fff;
+    padding-left: 3px;
+}
+/* 购物车图标 */
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child{
+    background-image: url('../img/gwc.jpg'); 
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-left: 3px;
+}
+/* 购物车文字 */
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2){
+    vertical-align: top;
+    display: inline-block;
+}
+/* 数量 */
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3){
+    vertical-align: top;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+/* 分类导航 */
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
+}
+.nav .category-menu .left-logo{
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+.nav .category-menu .left-logo img{
+    position: absolute;
+    top:-83px;
+    left: 0;
+}
+.nav .category-menu ul{
+    width: 1000px;
+    height: 30px;
+}
+.nav .category-menu ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    color: #333;
+    font-weight: 14px;
+    text-align: center;
+    font: 700px;
+} 
+
+/* 14.---------------------------尾部--------------------------- */
+.tail{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    position: relative;
+}
+/* 头部 */
+.tail .tail-top{
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+    border-top: 6px solid #ff6700;
+}
+.tail .tail-top ul{
+    margin-left: 230px;
+    margin-top: 20px;
+
+}
+.tail .tail-top ul li{
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+/* 中间导航和logo */
+.tail .tail-middle{
+    width: 1200px;
+    height: 180px;
+    position: absolute;
+    left: 250px;
+    top:130px;
+}
+.tail .tail-middle .tail-left{
+    width: 1000px;
+    height: 180px;
+}
+.tail .tail-middle .tail-left ul li{
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+.tail .tail-middle .tail-left ul li p{
+    line-height: 40px;
+    text-align: center;
+}
+.tail .tail-middle .tail-left ul li p:not(:first-child){
+    font-size: 16px;
+    color: #6c6c6c;
+}
+.tail .tail-middle .tail-left ul li p:first-child{
+    font-size: 24px;
+}
+.tail .tail-middle .tail-logo{
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+}
+/* 尾部导航栏 */
+.tail .tail-bottom{
+    width: 1200px;
+    height: 40px;
+    position: absolute;
+    bottom: 200px;
+    left: 300px;   
+}
+.tail .tail-bottom p{
+    width: 1000px;
+    font-size: 14px;
+    margin-left: 80px;
+    line-height: 50px;
+}
+.tail .tail-bottom p:last-child{
+    font-size: 14px;
+    margin-left: 250px;
+    line-height: 50px;
+}
+
